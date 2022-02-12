@@ -88,3 +88,10 @@ async def compress_pdf(c, m: Message):
 
     )
     
+#
+    try:
+        os.remove(size_path[1])
+    except Exception:
+        pass
+    #
+                   )
