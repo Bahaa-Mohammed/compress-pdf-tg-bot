@@ -17,7 +17,7 @@ async def compress_pdf(c, m: Message):
         await msg.edit(Presets.INVALID_FORMAT, reply_markup=close_button)
         return
     #
-    dl_location = os.getcwd() + '/' + "downloads" + '/' + str(m.from_user.id) + '/'
+    dl_location = os.getcwd() + '/' + "downloads" + '/'
     if not os.path.isdir(dl_location):
         os.makedirs(dl_location)
     else:
