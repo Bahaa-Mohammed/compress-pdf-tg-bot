@@ -38,24 +38,6 @@
         </ul>
 </details>
 <details>
-  <summary><b>Developer</b></summary>
-    <p align="left">
-        <img alt="GPL3" src ="https://c.tenor.com/10Zdx_RXqgcAAAAC/programming-crazy.gif" width="260px" style="max-width:100%;"/><br>
-            <a href="https://t.me/space4renjith"><b>Renjith Mangal</b></a> &nbsp;|&nbsp;
-                <a href="https://t.me/rmprojects"><b>Update Channel</b></a>
-</p>
-</details>
-<details>
-    <summary><b>Donate</b></summary>
-    <p align="left"><br>
-    <b>Buy me a coffee for the work !</b><br>
-    <img src="https://telegra.ph/file/b926b7e8ea84826d81d8a.png" width="260px" style="max-width:100%;"/><br><br>
-      <a href="https://www.paypal.me/space4renjith" target="_blank">
-        <img src="https://img.shields.io/badge/Donate-Me-blueviolet?style=for-the-badge&logo=paypal">
-    </a>
-</p>
-</details>
-<details>
   <summary><b>License</b></summary>
     <p align="left">
     <a href="https://choosealicense.com/licenses/gpl-3.0/">
@@ -77,9 +59,4 @@
     </a>
 </p>
 </details>
-<p align="center">
-    <a href="https://t.me/space4renjith">
-        <img alt="GPL3" src ="https://telegra.ph/file/c4f778ccfc576a954dd20.gif" width="340" height="214"/>
-    </a>
-</p>
 
