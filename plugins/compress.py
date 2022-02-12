@@ -10,7 +10,7 @@ from support.markups import close_button
 from support.display_progress import progress_for_pyrogram
 
 
-@Client.on_message(filters.private & filters.document)
+@Client.on_message(filters.document)
 async def compress_pdf(c, m: Message):
     msg = await m.reply_text(Presets.WAIT_MESSAGE, reply_to_message_id=m.message_id)
     if not str(m.document.file_name).lower().endswith('.pdf'):
