@@ -97,3 +97,6 @@ async def compress_pdf(c, m: Message):
                    disable_web_page_preview=True,
                    reply_markup=close_button
                    )
+   #
+    await asyncio.sleep(2)
+   await m.delete()
