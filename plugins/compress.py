@@ -12,11 +12,9 @@ from support.display_progress import progress_for_pyrogram
 
 @Client.on_message(filters.document)
 async def compress_pdf(c, m: Message):
+  if str(m.document.file_name).lower().endswith('.pdf'):
     msg = await m.reply_text(Presets.WAIT_MESSAGE, reply_to_message_id=m.message_id)
-    if not str(m.document.file_name).lower().endswith('.pdf'):
-
-        await msg.edit(Presets.INVALID_FORMAT, reply_markup=close_button)
-        return
+  
     #
     dl_location = os.getcwd() + '/' + "downloads" + '/'
     if not os.path.isdir(dl_location):
