@@ -93,4 +93,8 @@ async def compress_pdf(c, m: Message):
         os.remove(size_path[1])
     except Exception:
         pass
-   
+    #
+    await msg.edit(Presets.FINISHED_JOB.format(initial_size, compressed_size),
+                   disable_web_page_preview=True,
+                   reply_markup=close_button
+                   )
